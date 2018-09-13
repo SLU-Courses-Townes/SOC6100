@@ -81,4 +81,6 @@ vignettes/*.pdf
 
 # Temporary files created by Microsoft Word
 .tmp
+
+#Specific files
 Data/DataNBERPatentCitations/apat63_99/apat63_99.txt
