@@ -286,8 +286,8 @@ write.csv(ObsDataSubset95to99, here("Data/DataClean/NBERPatCit95to99.csv"), appe
     ## NBERPatCit95to99.csv"), : attempt to set 'append' ignored
 
 ``` r
-write.csv(ObsDataSubset95to99, here("Data/DataClean/NBERPatCit95to99Sample.csv"), append = FALSE)
+write.csv(ObsDataSubset95to99Sample, here("Data/DataClean/NBERPatCit95to99Sample.csv"), append = FALSE)
 ```
 
-    ## Warning in write.csv(ObsDataSubset95to99, here("Data/DataClean/
+    ## Warning in write.csv(ObsDataSubset95to99Sample, here("Data/DataClean/
     ## NBERPatCit95to99Sample.csv"), : attempt to set 'append' ignored

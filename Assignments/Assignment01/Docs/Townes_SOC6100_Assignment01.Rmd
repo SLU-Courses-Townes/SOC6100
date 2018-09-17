@@ -92,6 +92,6 @@ The following code chunk saves the cleaned data.
 ```{r save-data}
 write.csv(DataSubset99, here("Data/DataClean/NBERPatCit1999.csv"), append = FALSE)
 write.csv(ObsDataSubset95to99, here("Data/DataClean/NBERPatCit95to99.csv"), append = FALSE)
-write.csv(ObsDataSubset95to99, here("Data/DataClean/NBERPatCit95to99Sample.csv"), append = FALSE)
+write.csv(ObsDataSubset95to99Sample, here("Data/DataClean/NBERPatCit95to99Sample.csv"), append = FALSE)
 ```
 
