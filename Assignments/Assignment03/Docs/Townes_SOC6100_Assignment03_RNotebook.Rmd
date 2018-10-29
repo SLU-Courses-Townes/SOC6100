@@ -39,7 +39,7 @@ Assignment03DataRaw <- read.csv(here("Data/DataRaw/NBERPatCit95to99Sample.csv"))
 ## Transform Dependent Variable
 The following code chunk creates a new variable called `CRECEIVEtr` which is a transformation of the `CRECEIVE` variable. I applied this transformation to create a new dependent variable because the histogram of the data for the `CRECEIVE` variable was positively skewed (i.e., skewed right).
 ```{r transform-DV}
-Assignment03DataClean <- mutate(Assignment03DataRaw, CRECEIVErecip = (1/CRECEIVE))
+Assignment03DataClean <- mutate(Assignment03DataRaw, CRECEIVElog10 = log10(CRECEIVE), CRECEIVEln = log(CRECEIVE), CRECEIVErecip = (1/CRECEIVE))
 ```
 
 ## Save Data

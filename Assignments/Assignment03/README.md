@@ -29,4 +29,4 @@ www.nber.org/patents/[http://www.nber.org/patents/]
 The raw data contains data on 23 variables for 2,923,922 observations covering the period from 1963 to 1999.
 
 ### Data Modifications
-Data modifications comprised the creation a subset of the raw data. The subsetted data contains 24 variables and 2,000 randomly selected observations from the period 1995 to 1999. Included among the variables is a recipricol transformation variable (`CRECEIVEtr`) of the `CRECEIVE` variable. 
+Data modifications comprised the creation a subset of the raw data. The subsetted data contains 26 variables and 2,000 randomly selected observations from the period 1995 to 1999. Included among the variables are three (3) transformations of the `CRECEIVE` variable.
